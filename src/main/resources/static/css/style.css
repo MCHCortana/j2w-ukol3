@@ -39,6 +39,38 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position:relative;
+}
+
+.vizitka.new-vizitka{
+    height: fit-content;
+}
+.jmeno.container-heading-add_new{
+    margin:0em;
+    padding:0em;
+    text-align:center;
+}
+
+.row.g-3{
+    padding-top:0.5em;
+}
+.vizitka--nova {
+    background-color: #FFFFFF66;
+    border: 3px dotted white;
+    justify-content: center;
+    align-items: center;
+}
+
+.vymazat{
+    position:absolute;
+    top:5px;
+    right:10px;
+    color: mediumpurple;
+}
+a:hover .vizitka {
+    box-shadow: 10px 10px 10px black;
+    transform: translate(-5px, -5px);
+    transition: box-shadow 0.2s, transform 0.2s;
 }
 
 .jmeno {
